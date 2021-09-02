@@ -1,0 +1,21 @@
+@import "../../../styles.scss";
+
+.side-bar {
+    margin-top: -40px;
+    padding: 0 20px;
+}
+
+.sticky {
+    top: 40px
+}
+
+@include media-breakpoint-up(xm) {
+    .side-bar {
+        position: absolute;
+        height: 100%;
+        margin: 0;
+        padding: 40px 34px;
+        right: 0;
+        top: 0;
+    }
+}
