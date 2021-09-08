@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BackgroundComponent } from './components/background/background.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { ActivitiesComponent } from './components/activities/activities.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     HeaderComponent,
     FooterComponent,
     BackgroundComponent,
-    TimelineComponent
+    TimelineComponent,
+    ActivitiesComponent
   ],
   imports: [
     BrowserModule,
