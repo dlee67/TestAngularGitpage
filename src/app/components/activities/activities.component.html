@@ -35,7 +35,11 @@
             <p>Participated in ETHDenver</p>
             <p>Participated in T9Hack</p>
         </div>
-        <div class="col sticky">
+        <div *ngIf="this.showIntel" [@fadeIn] class="col intel-sticky mr-5">
+        </div>
+        <div *ngIf="this.showETH" [@fadeIn] class="col eth-sticky mr-5">
+        </div>
+        <div *ngIf="this.showHPC" [@fadeIn] class="col hpc-sticky mr-5">
         </div>
     </div>
 
